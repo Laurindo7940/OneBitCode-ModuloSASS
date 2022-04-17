@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $background-color;
+}
+
+.container{
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .item{
+    background-color: $btn-color;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+  }
+
+}
